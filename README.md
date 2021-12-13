@@ -1,17 +1,37 @@
 # TicTacToe
 
 ## Description
-Design and build a simple two-player Tic Tac Toe program. You can make the interface however you would like it (a simple text interface where the board is redrawn after each move is probably the easiest). The basic features of the program are as follows:
+Design and build a simple two-player Tic Tac Toe program. The basic features of the program are as follows:
 
-	• Display the board
-	
-	• Get a players move (of course make sure that the position is empty)
-	
-	• A referee should check so see if the game is over. This can happen one of two ways.
-	
-		o A player wins
-		
-		o All of the positions are filled and there is no winner (ie a draw)
+-	You need to design a program to make a tic tac toe game. 
+-	You must make the program run as an object. The board should be a default of 3X3 but can be made larger when a new object is made. 
+-	You must have a two player game that keeps track of the player turn and won’t let a player go twice in a row. 
+-	You must print out each move into the terminal after each turn so the players can see the open squares. 
+-	If a square is taken already, you should tell the user they need to try again so squares are not overwritten.
+-	Separate the squares so each area is identifiable. 
+-	The terminal should look like this.
+```
+Turn 1:
+   |   |   
+___________
+   |   |
+___________
+   |   |
 
-We know that after each player moves the referee needs to evaluate the board to see
-if the game is over. Let's make the referee feature an Aspect.
+Turn 2:
+ X |   | 
+___________
+   |   |
+___________
+   |   |
+
+Turn 3:
+ X | O | 
+___________
+   |   |
+___________
+   |   |
+
+Turn 4:
+ect…
+```
