@@ -1,11 +1,10 @@
-
-
 import java.util.*;
 
 public class Main {
 	private static int rows = 4;
 	private static int columns = 4;
 	
+	//start ui
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		Tictactoe game = new Tictactoe(rows, columns);
